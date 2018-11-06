@@ -21,8 +21,8 @@ class RocketTest {
     @Test
     void Carry1UpdatesRocketWeight1() {
         Rocket rocket = new Rocket();
-        Item item = new Item("test", 1);
 
+        Item item = new Item("test", 1);
         rocket.carry(item);
 
         assertEquals(1, rocket.getWeight());
@@ -31,10 +31,28 @@ class RocketTest {
     @Test
     void Carry2UpdatesRocketWeight2() {
         Rocket rocket = new Rocket();
-        Item item = new Item("test", 2);
 
+        Item item = new Item("test", 2);
         rocket.carry(item);
 
         assertEquals(2, rocket.getWeight());
+    }
+
+    @Test
+    void CanCarryTrueWhenWeightLimitNotExceeded() {
+        Rocket rocket = new Rocket();
+
+        Item item = new Item("test", 1);
+
+        assertTrue(rocket.canCarry(item));
+    }
+
+    @Test
+    void CanCarryFalseWhenWeightLimitExceeded() {
+        Rocket rocket = new Rocket();
+
+        Item item = new Item("test", 2);
+
+        assertFalse(rocket.canCarry(item));
     }
 }
