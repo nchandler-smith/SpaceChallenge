@@ -1,4 +1,4 @@
-public class Rocket {
+public class Rocket implements SpaceShip {
 
 
 
@@ -10,10 +10,15 @@ public class Rocket {
         return true;
     }
 
-    public int getWeight() {
-        return 1000;
+    public boolean canCarry(Item item) {
+        return false;
     }
 
-    public void carry(int i) {
+    public boolean carry(Item item) {
+        return true;
+    }
+
+    public int getWeight() {
+        return 1000;
     }
 }
