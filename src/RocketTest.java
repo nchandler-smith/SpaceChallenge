@@ -19,12 +19,22 @@ class RocketTest {
     }
 
     @Test
-    void Carry1000UpdatesRocketWeight1000() {
+    void Carry1UpdatesRocketWeight1() {
         Rocket rocket = new Rocket();
-        Item item = new Item("test", 1000);
+        Item item = new Item("test", 1);
 
         rocket.carry(item);
 
-        assertEquals(1000, rocket.getWeight());
+        assertEquals(1, rocket.getWeight());
+    }
+
+    @Test
+    void Carry2UpdatesRocketWeight2() {
+        Rocket rocket = new Rocket();
+        Item item = new Item("test", 2);
+
+        rocket.carry(item);
+
+        assertEquals(2, rocket.getWeight());
     }
 }

@@ -1,5 +1,5 @@
 public class Rocket implements SpaceShip {
-
+    int weight;
 
 
     public boolean launch() {
@@ -14,11 +14,11 @@ public class Rocket implements SpaceShip {
         return false;
     }
 
-    public boolean carry(Item item) {
-        return true;
+    public void carry(Item item) {
+        this.weight += item.getWeight();
     }
 
     public int getWeight() {
-        return 1000;
+        return this.weight;
     }
 }
