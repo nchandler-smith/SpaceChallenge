@@ -17,4 +17,13 @@ class RocketTest {
 
         assertTrue(rocket.land());
     }
+
+    @Test
+    void Carry1000ReturnsWeight1000() {
+        Rocket rocket = new Rocket();
+
+        rocket.carry(1000);
+
+        assertEquals(1000, rocket.getWeight());
+    }
 }

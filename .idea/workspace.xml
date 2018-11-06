@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eadfe2d9-6677-49ad-a85c-a30dff2aa6ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Rocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RocketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RocketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RocketTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,12 +34,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="887" />
+          <entry key="java" value="1052" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="887" />
+          <entry key="JAVA" value="1052" />
         </counts>
       </usages-collector>
     </session>
@@ -60,26 +59,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Rocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="e#50#51#0" expanded="true" />
                 <element signature="e#76#77#0" expanded="true" />
                 <element signature="e#106#107#0" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RocketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,8 +109,8 @@
         <option value="$PROJECT_DIR$/src/Item.java" />
         <option value="$PROJECT_DIR$/src/ItemTest.java" />
         <option value="$PROJECT_DIR$/src/SpaceShip.java" />
-        <option value="$PROJECT_DIR$/src/Rocket.java" />
         <option value="$PROJECT_DIR$/src/RocketTest.java" />
+        <option value="$PROJECT_DIR$/src/Rocket.java" />
       </list>
     </option>
   </component>
@@ -156,7 +157,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541466687612" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541467121458" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -184,18 +185,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RocketTest">
+  <component name="RunManager" selected="JUnit.RocketTest.Carry1000ReturnsWeight1000">
     <configuration name="RunMain" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="space_challenge" />
       <module name="space_challenge" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="space_challenge" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,6 +206,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RocketTest" />
       <option name="METHOD_NAME" value="CanCarryReturnsTrueWhenWeightNotExceeded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RocketTest.Carry1000ReturnsWeight1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="space_challenge" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RocketTest" />
+      <option name="METHOD_NAME" value="Carry1000ReturnsWeight1000" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -240,19 +243,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.RunMain" />
-      <item itemvalue="JUnit.ItemTest" />
       <item itemvalue="JUnit.RocketTest" />
       <item itemvalue="JUnit.RocketTest.LaunchReturnsTrue" />
       <item itemvalue="JUnit.RocketTest.LandReturnsTrue" />
       <item itemvalue="JUnit.RocketTest.CanCarryReturnsTrueWhenWeightNotExceeded" />
+      <item itemvalue="JUnit.RocketTest.Carry1000ReturnsWeight1000" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RocketTest.Carry1000ReturnsWeight1000" />
         <item itemvalue="JUnit.RocketTest" />
         <item itemvalue="JUnit.RocketTest.CanCarryReturnsTrueWhenWeightNotExceeded" />
         <item itemvalue="JUnit.RocketTest.LandReturnsTrue" />
         <item itemvalue="JUnit.RocketTest.LaunchReturnsTrue" />
-        <item itemvalue="JUnit.ItemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +270,7 @@
       <option name="presentableId" value="Default" />
       <updated>1541461850386</updated>
       <workItem from="1541461853053" duration="354000" />
-      <workItem from="1541463421801" duration="2521000" />
+      <workItem from="1541463421801" duration="2926000" />
     </task>
     <servers />
   </component>
@@ -290,9 +293,12 @@
     <history-entry file="RocketTest - 2018.11.05 at 19h 08m 01s.xml">
       <configuration name="RocketTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RocketTest - 2018.11.05 at 19h 11m 29s.xml">
+      <configuration name="RocketTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2875000" />
+    <option name="totallyTimeSpent" value="3280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="864" y="23" width="1083" height="734" extended-state="0" />
@@ -376,25 +382,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RocketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Rocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="e#50#51#0" expanded="true" />
             <element signature="e#76#77#0" expanded="true" />
             <element signature="e#106#107#0" expanded="true" />
             <element signature="e#134#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RocketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
           </folding>
         </state>
       </provider>
