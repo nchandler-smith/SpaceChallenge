@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eadfe2d9-6677-49ad-a85c-a30dff2aa6ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SpaceShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RocketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RocketTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,22 +25,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="596" />
+          <entry key="java" value="1775" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="596" />
+          <entry key="JAVA" value="1775" />
         </counts>
       </usages-collector>
     </session>
@@ -60,10 +61,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Rocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+              <folding>
+                <element signature="e#50#51#0" expanded="true" />
+                <element signature="e#76#77#0" expanded="true" />
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RocketTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SpaceShip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="60">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -73,9 +107,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -86,9 +120,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/space_challenge.java" />
-        <option value="$PROJECT_DIR$/src/Item.java" />
         <option value="$PROJECT_DIR$/src/ItemTest.java" />
         <option value="$PROJECT_DIR$/src/SpaceShip.java" />
+        <option value="$PROJECT_DIR$/src/Item.java" />
+        <option value="$PROJECT_DIR$/src/RocketTest.java" />
+        <option value="$PROJECT_DIR$/src/Rocket.java" />
       </list>
     </option>
   </component>
@@ -100,9 +136,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="864" />
-    <option name="y" value="70" />
+    <option name="y" value="23" />
     <option name="width" value="1083" />
-    <option name="height" value="734" />
+    <option name="height" value="859" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -135,7 +171,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541466006309" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541470807737" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -163,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ItemTest">
+  <component name="RunManager" selected="JUnit.RocketTest">
     <configuration name="RunMain" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="space_challenge" />
       <module name="space_challenge" />
@@ -179,31 +215,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemTest.ItemClassHasANameStringFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RocketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="space_challenge" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemTest" />
-      <option name="METHOD_NAME" value="ItemClassHasANameStringFieldTest" />
+      <option name="MAIN_CLASS_NAME" value="RocketTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RocketTest.CanCarryFalseWhenWeightLimitExceeded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="space_challenge" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RocketTest" />
+      <option name="METHOD_NAME" value="CanCarryFalseWhenWeightLimitExceeded" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemTest.ItemClassHasAWieghtIntFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RocketTest.CanCarryTrueWhenWeightLimitNotExceeded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="space_challenge" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemTest" />
-      <option name="METHOD_NAME" value="ItemClassHasAWieghtIntFieldTest" />
+      <option name="MAIN_CLASS_NAME" value="RocketTest" />
+      <option name="METHOD_NAME" value="CanCarryTrueWhenWeightLimitNotExceeded" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemTest.voidItemClassHasAWieghtIntFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RocketTest.Carry2UpdatesRocketWeight2000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="space_challenge" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemTest" />
-      <option name="METHOD_NAME" value="voidItemClassHasAWieghtIntFieldTest" />
+      <option name="MAIN_CLASS_NAME" value="RocketTest" />
+      <option name="METHOD_NAME" value="Carry2UpdatesRocketWeight2000" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,17 +255,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.RunMain" />
-      <item itemvalue="JUnit.ItemTest.ItemClassHasANameStringFieldTest" />
-      <item itemvalue="JUnit.ItemTest.voidItemClassHasAWieghtIntFieldTest" />
-      <item itemvalue="JUnit.ItemTest.ItemClassHasAWieghtIntFieldTest" />
+      <item itemvalue="JUnit.RocketTest" />
+      <item itemvalue="JUnit.RocketTest.Carry2UpdatesRocketWeight2000" />
       <item itemvalue="JUnit.ItemTest" />
+      <item itemvalue="JUnit.RocketTest.CanCarryTrueWhenWeightLimitNotExceeded" />
+      <item itemvalue="JUnit.RocketTest.CanCarryFalseWhenWeightLimitExceeded" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RocketTest" />
+        <item itemvalue="JUnit.RocketTest.CanCarryFalseWhenWeightLimitExceeded" />
+        <item itemvalue="JUnit.RocketTest.CanCarryTrueWhenWeightLimitNotExceeded" />
         <item itemvalue="JUnit.ItemTest" />
-        <item itemvalue="JUnit.ItemTest.ItemClassHasAWieghtIntFieldTest" />
-        <item itemvalue="JUnit.ItemTest.voidItemClassHasAWieghtIntFieldTest" />
-        <item itemvalue="JUnit.ItemTest.ItemClassHasANameStringFieldTest" />
+        <item itemvalue="JUnit.RocketTest.Carry2UpdatesRocketWeight2000" />
       </list>
     </recent_temporary>
   </component>
@@ -236,29 +282,50 @@
       <option name="presentableId" value="Default" />
       <updated>1541461850386</updated>
       <workItem from="1541461853053" duration="354000" />
-      <workItem from="1541463421801" duration="1854000" />
+      <workItem from="1541463421801" duration="5983000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ItemTest_ItemClassHasANameStringFieldTest - 2018.11.05 at 18h 25m 30s.xml">
-      <configuration name="ItemTest.ItemClassHasANameStringFieldTest" configurationId="JUnit" />
+    <history-entry file="RocketTest - 2018.11.05 at 19h 58m 58s.xml">
+      <configuration name="RocketTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ItemTest_ItemClassHasANameStringFieldTest - 2018.11.05 at 18h 27m 24s.xml">
-      <configuration name="ItemTest.ItemClassHasANameStringFieldTest" configurationId="JUnit" />
+    <history-entry file="RocketTest_CanCarryFalseWhenWeightLimitExceeded - 2018.11.05 at 20h 00m 21s.xml">
+      <configuration name="RocketTest.CanCarryFalseWhenWeightLimitExceeded" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ItemTest - 2018.11.05 at 18h 32m 26s.xml">
-      <configuration name="ItemTest" configurationId="JUnit" />
+    <history-entry file="RocketTest_CanCarryFalseWhenWeightLimitExceeded - 2018.11.05 at 20h 03m 24s.xml">
+      <configuration name="RocketTest.CanCarryFalseWhenWeightLimitExceeded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RocketTest_CanCarryFalseWhenWeightLimitExceeded - 2018.11.05 at 20h 12m 38s.xml">
+      <configuration name="RocketTest.CanCarryFalseWhenWeightLimitExceeded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RocketTest - 2018.11.05 at 20h 12m 43s.xml">
+      <configuration name="RocketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RocketTest_CanCarryFalseWhenWeightLimitExceeded - 2018.11.05 at 20h 13m 29s.xml">
+      <configuration name="RocketTest.CanCarryFalseWhenWeightLimitExceeded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RocketTest - 2018.11.05 at 20h 14m 05s.xml">
+      <configuration name="RocketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RocketTest - 2018.11.05 at 20h 14m 33s.xml">
+      <configuration name="RocketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RocketTest - 2018.11.05 at 20h 15m 21s.xml">
+      <configuration name="RocketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RocketTest - 2018.11.05 at 20h 18m 34s.xml">
+      <configuration name="RocketTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2208000" />
+    <option name="totallyTimeSpent" value="6337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="864" y="70" width="1083" height="734" extended-state="0" />
+    <frame x="864" y="23" width="1083" height="859" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2545629" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20845342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -267,7 +334,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32866043" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2750978" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,16 +372,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SpaceShip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#79#80#0" expanded="true" />
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -329,10 +397,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SpaceShip.java">
+    <entry file="file://$PROJECT_DIR$/src/RocketTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="795">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="e#50#51#0" expanded="true" />
+            <element signature="e#76#77#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
