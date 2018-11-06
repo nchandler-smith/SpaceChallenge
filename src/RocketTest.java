@@ -5,21 +5,21 @@ import static org.junit.jupiter.api.Assertions.*;
 class RocketTest {
 
     @Test
-    void LaunchReturnsTrue() {
+    void LaunchReturnsTrueTest() {
         Rocket rocket = new Rocket();
 
         assertTrue(rocket.launch());
     }
 
     @Test
-    void LandReturnsTrue() {
+    void LandReturnsTrueTest() {
         Rocket rocket = new Rocket();
 
         assertTrue(rocket.land());
     }
 
     @Test
-    void Carry1UpdatesRocketWeight1() {
+    void Carry1UpdatesRocketWeight1Test() {
         Rocket rocket = new Rocket();
 
         Item item = new Item("test", 1);
@@ -29,7 +29,7 @@ class RocketTest {
     }
 
     @Test
-    void Carry2UpdatesRocketWeight2() {
+    void Carry2UpdatesRocketWeight2Test() {
         Rocket rocket = new Rocket();
 
         Item item = new Item("test", 2);
@@ -39,7 +39,7 @@ class RocketTest {
     }
 
     @Test
-    void CanCarryTrueWhenWeightLimitNotExceeded() {
+    void CanCarryTrueWhenWeightLimitNotExceededTest() {
         Rocket rocket = new Rocket();
 
         Item item = new Item("test", 1);
@@ -48,7 +48,7 @@ class RocketTest {
     }
 
     @Test
-    void CanCarryFalseWhenWeightLimitExceeded() {
+    void CanCarryFalseWhenWeightLimitExceededTest() {
         Rocket rocket = new Rocket();
 
         Item item = new Item("test", 2);
