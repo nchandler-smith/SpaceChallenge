@@ -2,8 +2,8 @@ package test;
 
 import main.Item;
 import main.U1;
-import org.junit.jupiter.api.Test;
 
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class U1Test {
@@ -37,5 +37,12 @@ class U1Test {
         u1.carry(item);
 
         assertEquals(0.05, u1.getLaunchExplosionChance());
+    }
+
+    @Test
+    void U1LandingPercentNoCargoTest() {
+        U1 u1 = new U1();
+
+        assertEquals(0.0, u1.getLandingCrashChance());
     }
 }

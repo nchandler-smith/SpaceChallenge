@@ -19,4 +19,8 @@ public class U1 extends Rocket {
     public double getLaunchExplosionChance() {
         return (0.05 * (this.weight / this.weightLimit));
     }
+
+    public double getLandingCrashChance() {
+        return 0.0;
+    }
 }
