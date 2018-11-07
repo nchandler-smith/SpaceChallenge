@@ -4,11 +4,10 @@ import main.Rocket;
 
 public class U1 extends Rocket {
 
-    int cost;
+    static int cost = 100;
     static int weightLimit = 18;
 
     public U1() {
-        this.cost = 100;
         this.weight = 10;
     }
 
