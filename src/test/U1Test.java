@@ -45,4 +45,14 @@ class U1Test {
 
         assertEquals(0.0, u1.getLandingCrashChance());
     }
+
+    @Test
+    void U1LandingPercentFullCargoTest() {
+        U1 u1 = new U1();
+
+        Item item = new Item("test", 8);
+        u1.carry(item);
+
+        assertEquals(0.01, u1.getLandingCrashChance());
+    }
 }

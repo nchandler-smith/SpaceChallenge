@@ -5,7 +5,7 @@ import main.Rocket;
 public class U1 extends Rocket {
 
     int cost;
-    int weightLimit = 18;
+    static int weightLimit = 18;
 
     public U1() {
         this.cost = 100;
@@ -20,7 +20,15 @@ public class U1 extends Rocket {
         return (0.05 * (this.weight / this.weightLimit));
     }
 
+    public boolean launch() {
+        return Math.random() > getLaunchExplosionChance();
+    }
+
     public double getLandingCrashChance() {
-        return 0.0;
+        return (0.01 * (this.weight / this.weightLimit));
+    }
+
+    public boolean land() {
+        return Math.random() > getLandingCrashChance();
     }
 }
