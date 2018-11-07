@@ -1,8 +1,12 @@
+package main;
+
+import main.Item;
+
 public class Rocket implements SpaceShip {
     int weight;
     int maxWeight;
 
-    Rocket() {
+    public Rocket() {
         this.weight = 0;
         this.maxWeight = 1;
     }

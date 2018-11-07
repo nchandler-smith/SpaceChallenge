@@ -1,9 +1,13 @@
+package main;
+
+import main.Rocket;
+
 public class U1 extends Rocket {
 
     int cost;
     int weightLimit = 18;
 
-    U1() {
+    public U1() {
         this.cost = 100;
         this.weight = 10;
     }

@@ -1,3 +1,7 @@
+package test;
+
+import main.Item;
+import main.U1;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
