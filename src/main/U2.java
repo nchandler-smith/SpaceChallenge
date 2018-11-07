@@ -1,10 +1,14 @@
 package main;
 
-public class U2 {
+import main.Rocket;
 
-    static int cost = 120;
+public class U2 extends Rocket {
 
-    public int getCost() {
-        return cost;
+    public U2() {
+        this.cost = 120;
+        this.weight = 18;
+        this.weightLimit = 29;
+        this.launchExplosionChance = 0.04;
+        this.landingCrashChance = 0.08;
     }
 }

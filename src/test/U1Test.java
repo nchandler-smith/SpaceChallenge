@@ -23,14 +23,14 @@ class U1Test {
     }
 
     @Test
-    void U1LaunchPercentNoCargoTest() {
+    void U1NoCargoLaunchExplosion0PercentTest() {
         U1 u1 = new U1();
 
         assertEquals(0.0, u1.getLaunchExplosionChance());
     }
 
     @Test
-    void U1LaunchPercentFullCargoTest() {
+    void U1FullCargoLaunchExplosion5PercentTest() {
         U1 u1 = new U1();
 
         Item item = new Item("test", 8);
@@ -40,14 +40,14 @@ class U1Test {
     }
 
     @Test
-    void U1LandingPercentNoCargoTest() {
+    void U1NoCargoLandingCrash0PercentTest() {
         U1 u1 = new U1();
 
         assertEquals(0.0, u1.getLandingCrashChance());
     }
 
     @Test
-    void U1LandingPercentFullCargoTest() {
+    void U1FullCargoLandingCrash1PercentTest() {
         U1 u1 = new U1();
 
         Item item = new Item("test", 8);
