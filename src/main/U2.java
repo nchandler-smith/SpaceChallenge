@@ -1,7 +1,5 @@
 package main;
 
-import main.Rocket;
-
 public class U2 extends Rocket {
 
     public U2() {
