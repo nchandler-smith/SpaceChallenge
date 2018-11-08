@@ -23,5 +23,4 @@ class SimulationTest {
         assertEquals("colony", sim.loadItems(filename).get(1).getName());
         assertEquals(50000, sim.loadItems(filename).get(1).getWeight());
     }
-
 }
