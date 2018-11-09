@@ -25,10 +25,18 @@ class SimulationTest {
     }
 
     @Test
-    void loadU1TestNeed2U1RocketsTest() {
+    void loadU1Need2U1RocketsTest() {
         Simulation sim = new Simulation();
         String filename = "SimulationTest.txt";
 
         assertEquals(2, sim.loadU1(sim.loadItems(filename)).size());
+    }
+
+    @Test
+    void loadU2Need1U2RocketsTest() {
+        Simulation sim = new Simulation();
+        String filename = "SimulationTest.txt";
+
+        assertEquals(1, sim.loadU2(sim.loadItems(filename)).size());
     }
 }

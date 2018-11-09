@@ -25,20 +25,28 @@ public class Simulation {
     }
 
     public List<Rocket> loadU1(List<Item> loadedItems){
-        List<Rocket> rockets = new ArrayList();
         U1 u1 = new U1();
+        return loadRocket(loadedItems, u1);
+    }
+
+    public List<Rocket> loadU2(List<Item> loadedItems) {
+        U2 u2 = new U2();
+        return loadRocket(loadedItems, u2);
+    }
+
+    private List<Rocket> loadRocket(List<Item> loadedItems, Rocket rocketIn) {
+        List<Rocket> rocketsList = new ArrayList();
 
         for (Item item : loadedItems ) {
-            System.out.println("Rocket weight: " + u1.getWeight());
-            if (u1.canCarry(item)) {
-                u1.carry(item);
+            if (rocketIn.canCarry(item)) {
+                rocketIn.carry(item);
             } else {
-                rockets.add(u1);
-                u1 = new U1();
-                u1.carry(item);
+                rocketsList.add(rocketIn);
+                rocketIn = new Rocket();
+                rocketIn.carry(item);
             }
         }
-        rockets.add(u1);
-        return rockets;
+        rocketsList.add(rocketIn);
+        return rocketsList;
     }
 }
