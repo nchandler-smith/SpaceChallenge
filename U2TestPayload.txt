@@ -1,0 +1,3 @@
+habitat=1000
+colony=5000
+food=5000
