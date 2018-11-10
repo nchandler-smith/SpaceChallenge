@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eadfe2d9-6677-49ad-a85c-a30dff2aa6ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/U1TestFixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/U1TestFixture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/U2TestFixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/U2TestFixture.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,12 +40,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="U1TestPayload" value="1" />
-          <entry key="java" value="7126" />
+          <entry key="java" value="7130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7126" />
+          <entry key="JAVA" value="7130" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -53,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Simulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+            <state relative-caret-position="-153">
+              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,17 +90,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/U1TestFixture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/U2TestFixture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="135">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -171,13 +171,13 @@
         <option value="$PROJECT_DIR$/src/main/UTest.java" />
         <option value="$PROJECT_DIR$/src/main/U1Test.java" />
         <option value="$PROJECT_DIR$/src/test/U1TestFixture.java" />
-        <option value="$PROJECT_DIR$/src/main/U1TestFixture.java" />
-        <option value="$PROJECT_DIR$/src/main/U2TestFixture.java" />
         <option value="$PROJECT_DIR$/SimulationTest.txt" />
         <option value="$PROJECT_DIR$/src/test/SimulationTest.java" />
         <option value="$PROJECT_DIR$/U1TestPayload" />
         <option value="$PROJECT_DIR$/U2TestPayload.txt" />
         <option value="$PROJECT_DIR$/src/main/Simulation.java" />
+        <option value="$PROJECT_DIR$/src/main/U1TestFixture.java" />
+        <option value="$PROJECT_DIR$/src/main/U2TestFixture.java" />
       </list>
     </option>
   </component>
@@ -236,7 +236,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541854603486" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541862297441" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -387,20 +387,11 @@
       <workItem from="1541687296931" duration="161000" />
       <workItem from="1541726125455" duration="6893000" />
       <workItem from="1541781397974" duration="1311000" />
-      <workItem from="1541853604049" duration="984000" />
+      <workItem from="1541853604049" duration="1328000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimulationTest_loadU1TestNeed2U1RocketsTest - 2018.11.08 at 20h 31m 12s.xml">
-      <configuration name="SimulationTest.loadU1TestNeed2U1RocketsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimulationTest_loadU1TestNeed2U1RocketsTest - 2018.11.08 at 20h 34m 33s.xml">
-      <configuration name="SimulationTest.loadU1TestNeed2U1RocketsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimulationTest_loadU1Need2U1RocketsTest - 2018.11.08 at 20h 51m 16s.xml">
-      <configuration name="SimulationTest.loadU1Need2U1RocketsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="test_in_space_challenge - 2018.11.08 at 20h 51m 27s.xml">
       <configuration name="test in space_challenge" configurationId="JUnit" />
     </history-entry>
@@ -422,12 +413,22 @@
     <history-entry file="test_in_space_challenge - 2018.11.10 at 06h 54m 41s.xml">
       <configuration name="test in space_challenge" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="test_in_space_challenge - 2018.11.10 at 06h 56m 34s.xml">
+      <configuration name="test in space_challenge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_in_space_challenge - 2018.11.10 at 06h 56m 44s.xml">
+      <configuration name="test in space_challenge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_in_space_challenge - 2018.11.10 at 09h 01m 58s.xml">
+      <configuration name="test in space_challenge" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35081000" />
+    <option name="totallyTimeSpent" value="35425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="193" y="92" width="1165" height="787" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23953696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -540,20 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/U1TestFixture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/U2TestFixture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/U1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -588,11 +575,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Simulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        <state relative-caret-position="-153">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/U1TestFixture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/U2TestFixture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>

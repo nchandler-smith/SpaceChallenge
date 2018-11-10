@@ -6,7 +6,7 @@ public class U2TestFixture extends Rocket{
         this.cost = 120;
         this.weight = 18;
         this.weightLimit = 29;
-        this.launchExplosionChance = 0.04;
-        this.landingCrashChance = 0.08;
+        this.launchExplosionChance = 1;
+        this.landingCrashChance = 1;
     }
 }
