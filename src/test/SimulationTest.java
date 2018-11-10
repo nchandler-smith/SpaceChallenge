@@ -9,8 +9,6 @@ class SimulationTest {
 
     Simulation sim;
     String simFile = "SimulationPayloadTest.txt";
-    String u1SimFile = "U1TestPayload.txt";
-    String u2SimFile = "U2TestPayload.txt";
 
     @BeforeEach
     void setup(){

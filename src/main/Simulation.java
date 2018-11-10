@@ -46,28 +46,44 @@ public class Simulation {
         int totalRocketCost = 0;
 
         for (Rocket rocket: rocketList) {
-            totalRocketCost += rocket.getCost();
-            while (!rocket.launch() || !rocket.land()) {
-                totalRocketCost += rocket.getCost();
-            }
+            sendGargoUntilSuccessful(rocket, totalRocketCost);
         }
-
         return totalRocketCost;
     }
 
-    private List<Rocket> loadRocketFleet(List<Item> loadedItems, Rocket rocketIn) {
+    private List<Rocket> loadRocketFleet(List<Item> loadedItems, Rocket rocket) {
         List<Rocket> rocketsList = new ArrayList();
 
         for (Item item : loadedItems ) {
-            if (rocketIn.canCarry(item)) {
-                rocketIn.carry(item);
+            if (rocket.canCarry(item)) {
+                rocket.carry(item);
             } else {
-                rocketsList.add(rocketIn);
-                rocketIn = new Rocket();
-                rocketIn.carry(item);
+                rocketsList.add(rocket);
+                rocket = new Rocket();
+                rocket.carry(item);
             }
         }
-        rocketsList.add(rocketIn);
+        rocketsList.add(rocket);
+        System.out.println("Cargo will require at least " + rocketsList.size() + " rockets.");
         return rocketsList;
+    }
+
+    private int sendGargoUntilSuccessful(Rocket rocket, int totalRocketCost) {
+        boolean launchSuccessful = rocket.launch();
+        boolean landingSuccessful = rocket.land();
+        totalRocketCost += rocket.getCost();
+
+        if (launchSuccessful && landingSuccessful) {
+            System.out.println("Cargo safely arrived!");
+        }
+        else if (!launchSuccessful) {
+            System.out.println("Launch explosion! Retrying...");
+            sendGargoUntilSuccessful(rocket, totalRocketCost);
+        }
+        else {
+            System.out.println("Landing explosion! Retrying...");
+            sendGargoUntilSuccessful(rocket, totalRocketCost);
+        }
+        return totalRocketCost;
     }
 }
