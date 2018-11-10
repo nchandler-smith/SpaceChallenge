@@ -22,13 +22,22 @@ class U2Test {
     }
 
     @Test
-    void U2WeightsEquals18TonnesTest() {
-        assertEquals(18, u2.getCargoWeight());
+    void U2WeightsEquals0TonnesTest() {
+        assertEquals(0, u2.getCargoWeight());
     }
 
     @Test
     void U2NoCargoLaunchExplosion0PercentTest() {
         assertEquals(0.0, u2.getLaunchExplosionChance());
+    }
+
+    @Test
+    void U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest() {
+        Item item = new Item("test", 5);
+
+        u2.carry(item);
+
+        assertEquals(0.0182, u2.getLaunchExplosionChance(), 0.0002);
     }
 
     @Test
@@ -43,6 +52,15 @@ class U2Test {
     @Test
     void U2NoCargoLandingCrash0PercentTest() {
         assertEquals(0.0, u2.getLandingCrashChance());
+    }
+
+    @Test
+    void U2FiveTonnesCargoLandingCrash8PercentTest() {
+        Item item = new Item("test", 5);
+
+        u2.carry(item);
+
+        assertEquals(0.0364, u2.getLandingCrashChance(), 0.0001);
     }
 
     @Test

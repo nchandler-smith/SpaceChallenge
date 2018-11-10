@@ -22,13 +22,22 @@ class U1Test {
     }
 
     @Test
-    void U1WeightsEquals10TonnesTest() {
-        assertEquals(10, u1.getCargoWeight());
+    void U1WeightsEquals0TonnesTest() {
+        assertEquals(0, u1.getCargoWeight());
     }
 
     @Test
     void U1NoCargoLaunchExplosion0PercentTest() {
         assertEquals(0.0, u1.getLaunchExplosionChance());
+    }
+
+    @Test
+    void U14TonnesCarg0LaunchExplosion2AndAHalfPercentTest() {
+        Item item = new Item("test", 4);
+
+        u1.carry(item);
+
+        assertEquals(0.025, u1.getLaunchExplosionChance());
     }
 
     @Test
@@ -43,6 +52,15 @@ class U1Test {
     @Test
     void U1NoCargoLandingCrash0PercentTest() {
         assertEquals(0.0, u1.getLandingCrashChance());
+    }
+
+    @Test
+    void U14TonnesFargoLandingCrashHalfPercentTest() {
+        Item item = new Item("test", 4);
+
+        u1.carry(item);
+
+        assertEquals(0.005, u1.getLandingCrashChance());
     }
 
     @Test

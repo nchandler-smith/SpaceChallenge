@@ -4,20 +4,20 @@ public class Rocket implements SpaceShip {
 
     protected int cost;
     protected int cargoWeight;
-    protected int weightLimit;
+    protected int cargoWeightLimit;
     protected double launchExplosionChance;
     protected double landingCrashChance;
 
     public Rocket() {
         this.cargoWeight = 0;
-        this.weightLimit = 1;
+        this.cargoWeightLimit = 1;
     }
     public boolean launch() { return Math.random() > getLaunchExplosionChance(); }
 
     public boolean land() { return Math.random() > getLandingCrashChance(); }
 
     public boolean canCarry(Item item) {
-        return this.cargoWeight + item.getWeight() <= this.weightLimit;
+        return this.cargoWeight + item.getWeight() <= this.cargoWeightLimit;
     }
 
     public void carry(Item item) {
@@ -33,8 +33,9 @@ public class Rocket implements SpaceShip {
     }
 
     public double getLaunchExplosionChance() {
-        return (this.launchExplosionChance * (this.cargoWeight / this.weightLimit));
+        return (this.launchExplosionChance * ((double) this.cargoWeight / this.cargoWeightLimit));
     }
 
-    public double getLandingCrashChance() { return (this.landingCrashChance * (this.cargoWeight / this.weightLimit)); }
+    public double getLandingCrashChance() {
+        return (this.landingCrashChance * ((double) this.cargoWeight / this.cargoWeightLimit)); }
 }
