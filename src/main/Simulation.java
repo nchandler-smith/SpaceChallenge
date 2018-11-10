@@ -15,13 +15,21 @@ public class Simulation {
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
-                String[] parts = line.split("=");
-                Item item = new Item(parts[0], Integer.parseInt(parts[1])/1000);
-                loadedItems.add(item);
+                loadedItems.add(parseLineItem((line)));
             }
         } catch (FileNotFoundException e) {
+            // logging
         }
         return loadedItems;
+    }
+
+    private Item parseLineItem(String line) {
+        int kgPerTonne = 1000;
+        // line in file: 'itemName = itemWeight'
+        String[] parts = line.split("=");
+        int weight = Integer.parseInt(parts[1])/kgPerTonne;
+        Item item = new Item(parts[0], weight);
+        return item;
     }
 
     public List<Rocket> loadU1(List<Item> loadedItems){
