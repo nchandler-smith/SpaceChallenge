@@ -9,7 +9,7 @@ class SimulationTest {
     @Test
     void ReadLineHabitatEquals100000Test() {
         Simulation sim = new Simulation();
-        String filename = "SimulationTest.txt";
+        String filename = "SimulationPayloadTest.txt";
 
         assertEquals("habitat", sim.loadItems(filename).get(0).getName());
         assertEquals(1, sim.loadItems(filename).get(0).getWeight());
@@ -18,7 +18,7 @@ class SimulationTest {
     @Test
     void ReadLineColonyEquals50000Test() {
         Simulation sim = new Simulation();
-        String filename = "SimulationTest.txt";
+        String filename = "SimulationPayloadTest.txt";
 
         assertEquals("colony", sim.loadItems(filename).get(1).getName());
         assertEquals(5, sim.loadItems(filename).get(1).getWeight());
@@ -27,7 +27,7 @@ class SimulationTest {
     @Test
     void loadU1Need2U1RocketsTest() {
         Simulation sim = new Simulation();
-        String filename = "SimulationTest.txt";
+        String filename = "SimulationPayloadTest.txt";
 
         assertEquals(2, sim.loadU1(sim.loadItems(filename)).size());
     }
@@ -35,7 +35,7 @@ class SimulationTest {
     @Test
     void loadU2Need1U2RocketsTest() {
         Simulation sim = new Simulation();
-        String filename = "SimulationTest.txt";
+        String filename = "SimulationPayloadTest.txt";
 
         assertEquals(1, sim.loadU2(sim.loadItems(filename)).size());
     }

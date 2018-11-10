@@ -19,7 +19,7 @@ class U1Test {
     void U1WeightsEquals10TonnesTest() {
         U1 u1 = new U1();
 
-        assertEquals(10, u1.getWeight());
+        assertEquals(10, u1.getCargoWeight());
     }
 
     @Test

@@ -19,7 +19,7 @@ class U2Test {
     void U2WeightsEquals18TonnesTest() {
         U2 u2 = new U2();
 
-        assertEquals(18, u2.getWeight());
+        assertEquals(18, u2.getCargoWeight());
     }
 
     @Test

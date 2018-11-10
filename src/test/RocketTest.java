@@ -23,13 +23,13 @@ class RocketTest {
     }
 
     @Test
-    void Carry1UpdatesRocketWeight1Test() {
+    void Carry1UpdatesRocketCargoWeight1Test() {
         Rocket rocket = new Rocket();
 
         Item item = new Item("test", 1);
         rocket.carry(item);
 
-        assertEquals(1, rocket.getWeight());
+        assertEquals(1, rocket.getCargoWeight());
     }
 
     @Test
@@ -39,7 +39,7 @@ class RocketTest {
         Item item = new Item("test", 2);
         rocket.carry(item);
 
-        assertEquals(2, rocket.getWeight());
+        assertEquals(2, rocket.getCargoWeight());
     }
 
     @Test
