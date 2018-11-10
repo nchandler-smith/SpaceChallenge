@@ -1,7 +1,5 @@
 package main;
 
-import main.Item;
-
 public class Rocket implements SpaceShip {
 
     protected int cost;

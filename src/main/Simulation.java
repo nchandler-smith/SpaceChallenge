@@ -34,15 +34,15 @@ public class Simulation {
 
     public List<Rocket> loadU1(List<Item> loadedItems){
         U1 u1 = new U1();
-        return loadRocket(loadedItems, u1);
+        return loadRocketFleet(loadedItems, u1);
     }
 
     public List<Rocket> loadU2(List<Item> loadedItems) {
         U2 u2 = new U2();
-        return loadRocket(loadedItems, u2);
+        return loadRocketFleet(loadedItems, u2);
     }
 
-    private List<Rocket> loadRocket(List<Item> loadedItems, Rocket rocketIn) {
+    private List<Rocket> loadRocketFleet(List<Item> loadedItems, Rocket rocketIn) {
         List<Rocket> rocketsList = new ArrayList();
 
         for (Item item : loadedItems ) {
