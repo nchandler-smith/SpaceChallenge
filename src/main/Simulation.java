@@ -42,6 +42,19 @@ public class Simulation {
         return loadRocketFleet(loadedItems, u2);
     }
 
+    public int runSimulation(List<Rocket> rocketList) {
+        int totalRocketCost = 0;
+
+        for (Rocket rocket: rocketList) {
+            totalRocketCost += rocket.getCost();
+            while (!rocket.launch() || !rocket.land()) {
+                totalRocketCost += rocket.getCost();
+            }
+        }
+
+        return totalRocketCost;
+    }
+
     private List<Rocket> loadRocketFleet(List<Item> loadedItems, Rocket rocketIn) {
         List<Rocket> rocketsList = new ArrayList();
 
