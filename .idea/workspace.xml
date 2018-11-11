@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eadfe2d9-6677-49ad-a85c-a30dff2aa6ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/space_challenge/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/space_challenge/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/space_challenge/main/Simulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/space_challenge/main/Simulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/space_challenge/main/U1TestFixture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/space_challenge/main/U2TestFixture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/space_challenge/test/SimulationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/space_challenge/test/SimulationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/U1TestFixture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/U2TestFixture.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/SimulationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SimulationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,26 +44,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="U1TestPayload" value="3" />
-          <entry key="java" value="80" />
-          <entry key="txt" value="12" />
+          <entry key="class" value="1" />
+          <entry key="java" value="91" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="80" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="91" />
+          <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="U1TestPayload" value="1" />
-          <entry key="java" value="9040" />
+          <entry key="java" value="11448" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9040" />
+          <entry key="JAVA" value="11448" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
@@ -66,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Simulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+            <state relative-caret-position="266">
+              <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,55 +86,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Rocket.java">
+        <entry file="file://$PROJECT_DIR$/src/test/SimulationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/RocketTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/U1Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="43" column="51" lean-forward="true" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-580">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/SimulationTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/U1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -177,7 +160,6 @@
         <option value="$PROJECT_DIR$/U1TestPayload.txt" />
         <option value="$PROJECT_DIR$/src/main/SomeClassTest.java" />
         <option value="$PROJECT_DIR$/src/test/RocketTest.java" />
-        <option value="$PROJECT_DIR$/src/main/U1.java" />
         <option value="$PROJECT_DIR$/src/main/U2.java" />
         <option value="$PROJECT_DIR$/src/main/U2TestFixture.java" />
         <option value="$PROJECT_DIR$/src/main/U1TestFixture.java" />
@@ -185,9 +167,10 @@
         <option value="$PROJECT_DIR$/src/main/Rocket.java" />
         <option value="$PROJECT_DIR$/src/test/U2Test.java" />
         <option value="$PROJECT_DIR$/Phase2Payload.txt" />
-        <option value="$PROJECT_DIR$/src/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/Simulation.java" />
         <option value="$PROJECT_DIR$/src/test/SimulationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Simulation.java" />
+        <option value="$PROJECT_DIR$/src/main/U1.java" />
+        <option value="$PROJECT_DIR$/src/main/Main.java" />
       </list>
     </option>
   </component>
@@ -197,11 +180,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="583" />
-    <option name="y" value="96" />
-    <option name="width" value="1354" />
-    <option name="height" value="787" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="683" />
+    <option name="y" value="147" />
+    <option name="width" value="1076" />
+    <option name="height" value="897" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -246,7 +229,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541883436192" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541899813523" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -279,15 +262,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.test in space_challenge">
+  <component name="RunManager" selected="Application.RunMain">
     <configuration name="RunMain" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="space_challenge" />
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="space_challenge" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="U1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimulationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="space_challenge" />
       <extension name="coverage">
         <pattern>
@@ -296,12 +279,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.U1Test" />
+      <option name="MAIN_CLASS_NAME" value="test.SimulationTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="U1Test.U14TonnesCarg0LaunchExplosion2AndAHalfPercentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimulationTest.loadU1FleetVerifyCargoWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="space_challenge" />
       <extension name="coverage">
         <pattern>
@@ -310,14 +293,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.U1Test" />
-      <option name="METHOD_NAME" value="U14TonnesCarg0LaunchExplosion2AndAHalfPercentTest" />
+      <option name="MAIN_CLASS_NAME" value="test.SimulationTest" />
+      <option name="METHOD_NAME" value="loadU1FleetVerifyCargoWeight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="U1Test.U14TonnesFargoLandingCrashHalfPercentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimulationTest.loadU1Phase1PayloadFirstRocketEquals6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="space_challenge" />
       <extension name="coverage">
         <pattern>
@@ -326,14 +309,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.U1Test" />
-      <option name="METHOD_NAME" value="U14TonnesFargoLandingCrashHalfPercentTest" />
+      <option name="MAIN_CLASS_NAME" value="test.SimulationTest" />
+      <option name="METHOD_NAME" value="loadU1Phase1PayloadFirstRocketEquals6Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="U2Test.U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimulationTest.loadU2FleetVerifyCargoWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="space_challenge" />
       <extension name="coverage">
         <pattern>
@@ -342,8 +325,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.U2Test" />
-      <option name="METHOD_NAME" value="U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest" />
+      <option name="MAIN_CLASS_NAME" value="test.SimulationTest" />
+      <option name="METHOD_NAME" value="loadU2FleetVerifyCargoWeight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -365,19 +348,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.RunMain" />
-      <item itemvalue="JUnit.U1Test" />
-      <item itemvalue="JUnit.U1Test.U14TonnesFargoLandingCrashHalfPercentTest" />
-      <item itemvalue="JUnit.U1Test.U14TonnesCarg0LaunchExplosion2AndAHalfPercentTest" />
       <item itemvalue="JUnit.test in space_challenge" />
-      <item itemvalue="JUnit.U2Test.U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest" />
+      <item itemvalue="JUnit.SimulationTest.loadU1Phase1PayloadFirstRocketEquals6Test" />
+      <item itemvalue="JUnit.SimulationTest.loadU1FleetVerifyCargoWeight" />
+      <item itemvalue="JUnit.SimulationTest.loadU2FleetVerifyCargoWeight" />
+      <item itemvalue="JUnit.SimulationTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.test in space_challenge" />
-        <item itemvalue="JUnit.U2Test.U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest" />
-        <item itemvalue="JUnit.U1Test.U14TonnesCarg0LaunchExplosion2AndAHalfPercentTest" />
-        <item itemvalue="JUnit.U1Test.U14TonnesFargoLandingCrashHalfPercentTest" />
-        <item itemvalue="JUnit.U1Test" />
+        <item itemvalue="JUnit.SimulationTest" />
+        <item itemvalue="JUnit.SimulationTest.loadU2FleetVerifyCargoWeight" />
+        <item itemvalue="JUnit.SimulationTest.loadU1FleetVerifyCargoWeight" />
+        <item itemvalue="JUnit.SimulationTest.loadU1Phase1PayloadFirstRocketEquals6Test" />
       </list>
     </recent_temporary>
   </component>
@@ -398,50 +381,50 @@
       <workItem from="1541687296931" duration="161000" />
       <workItem from="1541726125455" duration="6893000" />
       <workItem from="1541781397974" duration="1311000" />
-      <workItem from="1541853604049" duration="12703000" />
+      <workItem from="1541853604049" duration="23717000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="U2Test_U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest - 2018.11.10 at 11h 19m 59s.xml">
-      <configuration name="U2Test.U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest" configurationId="JUnit" />
+    <history-entry file="SimulationTest_loadU2FleetVerifyCargoWeight - 2018.11.10 at 19h 14m 57s.xml">
+      <configuration name="SimulationTest.loadU2FleetVerifyCargoWeight" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="U2Test_U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest - 2018.11.10 at 11h 20m 26s.xml">
-      <configuration name="U2Test.U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest" configurationId="JUnit" />
+    <history-entry file="SimulationTest_loadU1FleetVerifyCargoWeight - 2018.11.10 at 19h 16m 50s.xml">
+      <configuration name="SimulationTest.loadU1FleetVerifyCargoWeight" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="U2Test_U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest - 2018.11.10 at 11h 21m 48s.xml">
-      <configuration name="U2Test.U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest" configurationId="JUnit" />
+    <history-entry file="SimulationTest_loadU1FleetVerifyCargoWeight - 2018.11.10 at 19h 18m 50s.xml">
+      <configuration name="SimulationTest.loadU1FleetVerifyCargoWeight" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="U2Test_U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest - 2018.11.10 at 11h 22m 06s.xml">
-      <configuration name="U2Test.U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest" configurationId="JUnit" />
+    <history-entry file="SimulationTest_loadU1FleetVerifyCargoWeight - 2018.11.10 at 19h 19m 49s.xml">
+      <configuration name="SimulationTest.loadU1FleetVerifyCargoWeight" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="U2Test_U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest - 2018.11.10 at 11h 24m 01s.xml">
-      <configuration name="U2Test.U15TonnesCarg0LaunchExplosion2AndAHalfPercentTest" configurationId="JUnit" />
+    <history-entry file="SimulationTest_loadU2FleetVerifyCargoWeight - 2018.11.10 at 19h 20m 12s.xml">
+      <configuration name="SimulationTest.loadU2FleetVerifyCargoWeight" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_in_space_challenge - 2018.11.10 at 11h 26m 37s.xml">
-      <configuration name="test in space_challenge" configurationId="JUnit" />
+    <history-entry file="SimulationTest_loadU2FleetVerifyCargoWeight - 2018.11.10 at 19h 20m 28s.xml">
+      <configuration name="SimulationTest.loadU2FleetVerifyCargoWeight" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_in_space_challenge - 2018.11.10 at 14h 21m 35s.xml">
-      <configuration name="test in space_challenge" configurationId="JUnit" />
+    <history-entry file="SimulationTest_loadU2FleetVerifyCargoWeight - 2018.11.10 at 19h 21m 01s.xml">
+      <configuration name="SimulationTest.loadU2FleetVerifyCargoWeight" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_in_space_challenge - 2018.11.10 at 14h 30m 56s.xml">
-      <configuration name="test in space_challenge" configurationId="JUnit" />
+    <history-entry file="SimulationTest_loadU2FleetVerifyCargoWeight - 2018.11.10 at 19h 22m 36s.xml">
+      <configuration name="SimulationTest.loadU2FleetVerifyCargoWeight" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_in_space_challenge - 2018.11.10 at 14h 44m 34s.xml">
-      <configuration name="test in space_challenge" configurationId="JUnit" />
+    <history-entry file="SimulationTest - 2018.11.10 at 19h 22m 44s.xml">
+      <configuration name="SimulationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_in_space_challenge - 2018.11.10 at 14h 54m 39s.xml">
+    <history-entry file="test_in_space_challenge - 2018.11.10 at 19h 22m 53s.xml">
       <configuration name="test in space_challenge" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46800000" />
+    <option name="totallyTimeSpent" value="57814000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="683" y="147" width="1076" height="897" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16422467" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23500967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -450,8 +433,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32805756" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23673469" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43229812" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32857144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -459,7 +442,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3294964" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3265306" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32298136" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.31478658" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -529,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/SpaceShip.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -575,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/U1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/U2TestFixture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -615,27 +584,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Rocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/RocketTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/U1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="43" column="51" lean-forward="true" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -649,30 +601,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="240">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Phase1Payload.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/SimulationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-580">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/U1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Rocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Simulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+        <state relative-caret-position="266">
+          <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/SimulationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/U1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
