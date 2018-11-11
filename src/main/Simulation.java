@@ -21,7 +21,7 @@ public class Simulation {
                 loadedItems.add(parseLineItem((line)));
             }
         } catch (FileNotFoundException e) {
-            // logging
+            System.out.println("++++++++++ File not found: " + filename + "++++++++++");
         }
         return loadedItems;
     }
@@ -71,7 +71,7 @@ public class Simulation {
                 try {
                     rocket = rocketClass.newInstance();
                 } catch (InstantiationException e) {
-                    System.out.println("Instantian Exception");
+                    System.out.println("Instantiation Exception");
                 } catch (IllegalAccessException e) {
                     System.out.println("IllegalAccessException");
                 }
